@@ -1,15 +1,15 @@
-# Install lummo-sqlproxy
+# Install gsql-proxy
 
 ## MacOS
 
 ```bash
-brew install bukukasio/tools/lummo-sqlproxy
+brew install KeyValueSoftwareSystems/tools/gsql-proxy
 ```
 
 ## Ubuntu
 
 ```bash
-curl -s https://raw.githubusercontent.com/bukukasio/lummo-sqlproxy/master/scripts/install.sh | bash
+curl -s https://raw.githubusercontent.com/KeyValueSoftwareSystems/gsql-proxy/master/scripts/install.sh | bash
 ```
 
 # Usage
@@ -18,7 +18,7 @@ curl -s https://raw.githubusercontent.com/bukukasio/lummo-sqlproxy/master/script
 ![gif directory](assets/connect.gif) <br />
 
 ```bash
-lummo-sqlproxy connect --port=<port-number>
+gsql-proxy connect --port=<port-number>
 ```
 
 By default `port=5432` and is optional <br />
@@ -27,7 +27,7 @@ By default `port=5432` and is optional <br />
 ![gif directory](assets/disconnect.gif) <br />
 
 ```bash
-lummo-sqlproxy disconnect
+gsql-proxy disconnect
 ```
 
 <br />
@@ -35,18 +35,18 @@ lummo-sqlproxy disconnect
 **For all commands** <br />
 
 ```bash
-lummo-sqlproxy --help
+gsql-proxy --help
 ```
 
  <br />
 
 # Prerequisites:
 
-- [cloud_sql_proxy](https://bukukas.atlassian.net/wiki/spaces/TD/pages/538148955/How+to+connect+CloudSQL)
+- [cloud_sql_proxy](https://keyvalue.atlassian.net/wiki/spaces/TD/pages/538148955/How+to+connect+CloudSQL)
 - [gcloud](https://cloud.google.com/sdk/docs/install)
 
 ### Install prerequisites in single click (WIP)
 
 ```bash
-curl -s https://raw.githubusercontent.com/bukukasio/lummo-sqlproxy/master/scripts/install_prerequisites.sh | bash
+curl -s https://raw.githubusercontent.com/KeyValueSoftwareSystems/gsql-proxy/master/scripts/install_prerequisites.sh | bash
 ```

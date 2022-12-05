@@ -1,4 +1,4 @@
-module bukukasio/lummo-sqlproxy
+module KeyValueSoftwareSystems/gsql-proxy
 
 go 1.18
 

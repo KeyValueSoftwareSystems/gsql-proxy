@@ -11,7 +11,7 @@ import (
 
 var version = "0.0.1"
 var rootCmd = &cobra.Command{
-	Use:     "lummo-sqlproxy [sub]",
+	Use:     "gsql-proxy [sub]",
 	Version: version,
 	Short:   "CloudSQL Proxy CLI",
 }

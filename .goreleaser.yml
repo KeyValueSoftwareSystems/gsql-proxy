@@ -5,7 +5,7 @@ builds:
   - env:
       - CGO_ENABLED=0
     ldflags:
-      - -X bukukasio/lummo-sqlproxy/cmd.version={{.Env.VERSION}}
+      - -X KeyValueSoftwareSystems/gsql-proxy/cmd.version={{.Env.VERSION}}
     goos:
       - linux
       - darwin
@@ -25,11 +25,11 @@ changelog:
       - '^docs:'
       - '^test:'
 brews:
-- name: lummo-sqlproxy
-  homepage: https://github.com/bukukasio/homebrew-tools
-  tap:
-    owner: bukukasio
-    name: homebrew-tools
-  ## TODO: fix the script to run on macOS
-  # post_install: |
-  #   system "curl -s https://raw.githubusercontent.com/bukukasio/lummo-sqlproxy/master/scripts/install_prerequisites.sh | bash"
+  - name: gsql-proxy
+    homepage: https://github.com/KeyValueSoftwareSystems/homebrew-tools
+    tap:
+      owner: KeyValueSoftwareSystems
+      name: homebrew-tools
+    ## TODO: fix the script to run on macOS
+    # post_install: |
+    #   system "curl -s https://raw.githubusercontent.com/KeyValueSoftwareSystems/gsql-proxy/master/scripts/install_prerequisites.sh | bash"
