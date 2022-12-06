@@ -15,7 +15,6 @@ curl -s https://raw.githubusercontent.com/KeyValueSoftwareSystems/gsql-proxy/mas
 # Usage
 
 **To connect a database instance** <br />
-![gif directory](assets/connect.gif) <br />
 
 ```bash
 gsql-proxy connect --port=<port-number>
@@ -24,7 +23,6 @@ gsql-proxy connect --port=<port-number>
 By default `port=5432` and is optional <br />
 <br />
 **To disconnect instance** <br />
-![gif directory](assets/disconnect.gif) <br />
 
 ```bash
 gsql-proxy disconnect
@@ -42,7 +40,7 @@ gsql-proxy --help
 
 # Prerequisites:
 
-- [cloud_sql_proxy](https://keyvalue.atlassian.net/wiki/spaces/TD/pages/538148955/How+to+connect+CloudSQL)
+- [cloud_sql_proxy](https://keyvalue.atlassian.net/wiki/spaces/TECH/pages/263782429/Cloud+SQL+connect+with+SQL+Proxy)
 - [gcloud](https://cloud.google.com/sdk/docs/install)
 
 ### Install prerequisites in single click (WIP)
